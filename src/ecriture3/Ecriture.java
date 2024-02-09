@@ -11,8 +11,8 @@ public class Ecriture {
 			PrintWriter pw = new PrintWriter(fw); 
 			pw.println("Test avec erreur");
 			for(int i=0; i<args.length; i++) {
-				pw.printf("%s      %d\n", i, args[i]);//erreur
-				//pw.printf("%d      %s\n", i, args[i]);//ok
+				//pw.printf("%s      %d\n", i, args[i]);//erreur
+				pw.printf("%d      %s\n", i, args[i]);//ok
 				System.out.println(args[i]); 
 			}
 			pw.close();

@@ -1,2 +1,5 @@
 Test avec erreur
-0      
+0      JE
+1      VUEX
+2      ÉCRIRE
+3      ÇA!
